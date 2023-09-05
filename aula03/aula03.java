@@ -15,13 +15,23 @@ public class aula03{
         System.out.println("Digite a primeira nota:");
         nota1 = teclado.nextDouble();
         System.out.println("Digite a segunda nota:");
-        nota2 = teclado.nextDouble;
+        nota2 = teclado.nextDouble();
 
         media = (nota1 + nota2) / 2;
 
         System.out.println("A média é:" + media);
+
+        if (media >= 7){
+            System.out.println("Parabéns você foi aprovado!");
+       
+        }else{
+            System.out.println("REPROVADO");
+        }
         
         teclado.close();
+    
+        }
+
+        
     }
 
-}
